@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="ProductDao" class="bupt.su.dao.implement.ProductDaoImplement"/>
+    <bean id="UserDao" class="bupt.su.dao.implement.UserDaoImplement"/>
+    <bean id="CategoryDao" class="bupt.su.dao.implement.CategoryDaoImplement"/>
+    <bean id="OrderDao" class="bupt.su.dao.implement.OrderDaoImplement"/>
+    
+    <bean id="ProductService" class="bupt.su.service.implement.ProductServiceImplement"/>
+    <bean id="UserService" class="bupt.su.service.implement.UserServiceImplement"/>
+    <bean id="CategoryService" class="bupt.su.service.implement.CategoryServiceImplement"/>
+    <bean id="OrderService" class="bupt.su.service.implement.OrderServiceImplement"/>
+</beans>
